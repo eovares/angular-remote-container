@@ -7,12 +7,14 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: dependency-cache-{{ checksum "yarn.lock" }}
+          name: Restore Yarn Package Cache
+          key: angular-remote-container-{{ .Branch }}-{{ checksum "yarn.lock" }}
       - run:
-          name: install-dependencies
+          name: Install Dependencies
           command: yarn install
       - save_cache:
-          key: dependency-cache-{{ checksum "yarn.lock" }}
+          name: Save Yarn Package Cache
+          key: angular-remote-container-{{ .Branch }}-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
             - ./node_modules
