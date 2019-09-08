@@ -11,7 +11,7 @@
     "test:ci": "ng test --karmaConfig karma-ci.conf.js --source-map=false --no-watch --no-progress",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "e2e:ci": "ng e2e --protractor-config=e2e/protractor-ci.conf.js --no-progress"
+    "e2e:ci": "ng e2e --protractor-config=e2e/protractor-ci.conf.js"
   },
   "private": true,
   "dependencies": {
