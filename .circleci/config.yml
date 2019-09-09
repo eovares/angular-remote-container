@@ -29,7 +29,7 @@ jobs:
           command: yarn run e2e:ci
       - run:
           name: "Angular Linter"
-          command: yarn lint --format junit -o test-results/junit/lint-results.xml
+          command: yarn run lint:ci
       - store_test_results:
           path: test-results/junit
       - store_artifacts:

@@ -10,6 +10,7 @@
     "test:coverage": "ng test --no-watch --code-coverage",
     "test:ci": "ng test --karmaConfig karma-ci.conf.js --source-map=false --no-watch --no-progress",
     "lint": "ng lint",
+    "lint:ci": "ng lint --format junit > test-results/junit/lint-results.xml",
     "e2e": "ng e2e",
     "e2e:ci": "ng e2e --protractor-config=e2e/protractor-ci.conf.js"
   },
