@@ -4489,7 +4489,7 @@ karma-coverage-istanbul-reporter@~2.0.1:
     istanbul-api "^2.1.6"
     minimatch "^3.0.4"
 
-karma-jasmine-html-reporter@^1.4.0:
+karma-jasmine-html-reporter@~1.4.0:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-1.4.2.tgz#16d100fd701271192d27fd28ddc90b710ad36fff"
   integrity sha512-7g0gPj8+9JepCNJR9WjDyQ2RkZ375jpdurYQyAYv8PorUCadepl8vrD6LmMqOGcM17cnrynBawQYZHaumgDjBw==
@@ -4501,7 +4501,7 @@ karma-jasmine@~2.0.1:
   dependencies:
     jasmine-core "^3.3"
 
-karma-junit-reporter@^1.2.0:
+karma-junit-reporter@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/karma-junit-reporter/-/karma-junit-reporter-1.2.0.tgz#4f9c40cedfb1a395f8aef876abf96189917c6396"
   integrity sha1-T5xAzt+xo5X4rvh2q/lhiZF8Y5Y=
@@ -4509,7 +4509,7 @@ karma-junit-reporter@^1.2.0:
     path-is-absolute "^1.0.0"
     xmlbuilder "8.2.2"
 
-karma-mocha-reporter@^2.2.5:
+karma-mocha-reporter@~2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/karma-mocha-reporter/-/karma-mocha-reporter-2.2.5.tgz#15120095e8ed819186e47a0b012f3cd741895560"
   integrity sha1-FRIAlejtgZGG5HoLAS8810GJVWA=
