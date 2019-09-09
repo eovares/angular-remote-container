@@ -7,7 +7,7 @@
     "build": "ng build",
     "build:prod": "ng build --prod --aot --no-progress",
     "test": "ng test",
-    "test:coverage": "ng test angular-remote-container --single-run --no-watch --code-coverage",
+    "test:coverage": "ng test --no-watch --code-coverage",
     "test:ci": "ng test --karmaConfig karma-ci.conf.js --source-map=false --no-watch --no-progress",
     "lint": "ng lint",
     "e2e": "ng e2e",

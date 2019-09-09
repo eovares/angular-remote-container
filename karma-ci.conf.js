@@ -31,7 +31,7 @@ module.exports = function (config) {
     },
     // junit reporter options
     junitReporter: {
-      outputFile: 'reports/junit/test-results.xml',
+      outputFile: 'test-results/junit/test-results.xml',
       useBrowserName: false
     },
     // mocha reporter options

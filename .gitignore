@@ -46,6 +46,8 @@ testem.log
 # test report results
 reports
 /reports/*
+test-results
+/test-results/*
 test-results.xml
 
 #System Files
