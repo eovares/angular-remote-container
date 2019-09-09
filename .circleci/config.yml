@@ -28,6 +28,7 @@ jobs:
           path: reports
       - store_artifacts:
           path: reports/junit/test-results.xml
+          destination: test
       - run:
           name: Angular E2E Test
           command: yarn run e2e:ci
