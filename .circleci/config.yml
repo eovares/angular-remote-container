@@ -25,9 +25,9 @@ jobs:
           name: Angular Unit Test
           command: yarn run test:ci
       - store_test_results:
-          path: reports
+          path: test-results
       - store_artifacts:
-          path: reports/junit/test-results.xml
+          path: test-results/junit/test-results.xml
           destination: test
       - run:
           name: Angular E2E Test
